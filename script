@@ -1,8 +1,5 @@
-// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
-// © thequantscience
-
 //@version=6
-indicator("Master Portfolio Lab PRO [The Quant Science]", overlay = false)
+indicator("Master Portfolio Lab PRO", overlay = false)
 
 app_mode = input.string("Cumulative (%)", "Analysis:", options = ["Equity ($)", "SMA Ribbon", "Volatility", "Cumulative (%)"], group = "DASHBOARD")
 fixed_cap_input = input.bool(false, "Fixed capital ($)", group = "CAPITAL CONFIGURATION", inline = "fixedCapital", confirm = true)
